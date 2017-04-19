@@ -1,11 +1,16 @@
-#this code will write mcnp input files for shields of different materials while varying lengths
+'''
+This code will write mcnp input files for shields of different materials while varying lengths
+
+User desired parameters can be altered near the bottom of the code.
+'''
 
 import numpy as np
 import matplotlib.pyplot as plt
 import os
 
+#create output folder
 try:
-    os.mkdir('/home/john/small_projects/triga_bp_shield/writer/output')
+    os.mkdir('writer/output')
 except OSError,e:
     print e
 
@@ -40,6 +45,19 @@ def abrev(material):
     if (material == 6): return 'cd'
 
 def Block1(material, density, label):
+    '''
+    This function creates the cell cards for the shielding problem
+    The only parameters that this program changes are for cell 21, where the material
+    and the material density are changed.
+    
+    Inputs:
+        material: the material number corresponding to the material cards in block 3
+        density: the density of that material
+        label: the english name of that material
+    
+    Output:
+        H: the string containing the text for the cell cards
+    '''    
     H = ''
     H += 'c  *********************************************************\n'
     H += 'c                           BLOCK 1\n'
@@ -187,36 +205,39 @@ def Tally(particle):
     return H
 
 def Name(abrev, particle, distance):
-    N = '{}{}{}.i'.format(abrev, particle, distance)
-    return N
+    return '{}{}{}.i'.format(abrev, particle, distance)
 
 def npsCalc(dd):
-    N = dd * 1.5E6
-    N = int(N)
-    return N
+    return int(dd * 1.5E6)
 
 
 #here you'll input all of the parameter you want to create the input files you need
-
+#particle types
 part = ['n', 'p']
+#materials you want files for
 mate = [1, 2, 3, 4, 5, 6]
+#shield thicknesses (cm)
 dist = [1, 2, 3, 4, 6, 8, 10, 15, 20, 25, 30]
-nps = int(5E6)
 
+#this will loop through the above lists to create the desired mcnp input files
 for par in part:
     for mat in mate:
         for dis in dist:            
             den = density(mat)
             abr = abrev(mat)
             lab = label(mat)
-            s = ''
-            s += 'TRIGA BEAMPORT {} Shield, Thickness {}, {}\n'.format(lab, dis, par)
+            #the next line will title the mcnp input file
+            s = 'TRIGA BEAMPORT {} Shield, Thickness {}, {}\n'.format(lab, dis, par)
+            #calls the Block1 function to produce cell cards for input file            
             s += Block1(mat, den, lab)
+            #write surface cards            
             s += Block2(dis, lab)
+            #write information in Block 3            
             s += Block3(par, npsCalc(dis))
             s += Source(par)
             s += Tally(par)
-            
+            #give the file a name
             name = Name(abr, par, dis)
-            with open('/home/john/small_projects/triga_bp_shield/writer/output/{}'.format(name), 'w') as H:
+            #create file in output folder and write to file
+            with open('writer/output/{}'.format(name), 'w') as H:
                 H.write(s)
