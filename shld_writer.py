@@ -9,10 +9,10 @@ import matplotlib.pyplot as plt
 import os
 
 #create output folder
-try:
-    os.mkdir('writer/output')
-except OSError,e:
-    print e
+#try:
+os.mkdir('output')
+#except OSError,e:
+#    print e
 
 #numbering
 #  1 Air      2 Borated Polyethylene
@@ -239,5 +239,5 @@ for par in part:
             #give the file a name
             name = Name(abr, par, dis)
             #create file in output folder and write to file
-            with open('writer/output/{}'.format(name), 'w') as H:
+            with open('output/{}'.format(name), 'w') as H:
                 H.write(s)
