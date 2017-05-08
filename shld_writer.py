@@ -23,8 +23,8 @@ import os
 #  n neutron  p photon
 
 density = [0.0, 0.001293, 1.000, 2.699, 11.34, 19.3, 8.65]
-label = ['VOID', 'Air', 'Borated Polyethylene', 'Aluminum', 'Lead', 'Tungsten', 'Cadmium', 'High Density Polyethylene']
-abrev = ['VOID', 'air', 'bp', 'al', 'pb', 'w', 'cd', 'HDPE']
+label = ['VOID', 'Air', 'Borated Polyethylene', 'Aluminum', 'Lead', 'Tungsten', 'Cadmium']
+abrev = ['VOID', 'air', 'bp', 'al', 'pb', 'w', 'cd']
 
 def Block1(blocks):
     '''
@@ -203,6 +203,21 @@ def name(blocks):
     for b in blocks:
         s += '{}'.format(b)
     return s
+
+def dec2hex(num):
+    if num == 0:
+        return 0
+    ans = ""
+    while num > 0:
+        ans = str(num%6) + ans
+        num /= 6
+    return int(ans)
+    
+def makeList(num):
+    n = dec2hex(num)
+    L = [0] * (10 - len(str(n)))
+    L += [int(d) for d in str(n)]
+    return [l + 1 for l in L]
    
 def run(blocks):
     for par in ['n', 'p']:
@@ -237,15 +252,19 @@ def run(blocks):
 
 #here you'll input all of the parameter you want to create the input files you need
 #particle types
+task = os.environ['SGE_TASK_ID']
+task = int(task) - 1
 
-allBlocks = [[4,4,4,4,4,4,4,4,4,4]]
-             
+allBlocks = [makeList(task)]
+            # 2244222445
 
 #this will loop through the above lists to create the desired mcnp input files
 for blocks in allBlocks:
     FastTotalNeutronRatio, NeutronToGammaRatio = run(blocks)
-    print 'Fast to Total N = {} : Neutron to Gamma = {}'.format(FastTotalNeutronRatio, NeutronToGammaRatio)
-    
+    print 'type = {} : Fast to Total N = {} : Neutron to Gamma = {}'.format(name(blocks), FastTotalNeutronRatio, NeutronToGammaRatio)
+    with open('results', 'a') as f:
+        f.write('type = {} : Fast to Total N = {} : Neutron to Gamma = {}\n'.format(name(blocks), FastTotalNeutronRatio, NeutronToGammaRatio))
+
          
         
         
