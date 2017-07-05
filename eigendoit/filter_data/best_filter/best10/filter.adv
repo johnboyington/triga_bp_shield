@@ -1,0 +1,17 @@
+model                      mcnp
+method                     cadis
+outputs                    mcnp
+mcnp_input                 best10n.i
+mcnp_tallies               31
+mesh_refinement            mcnp
+mesh_x                     -5 15
+mesh_y                     -10 10
+mesh_z                     -10 10
+mesh_x_ints                40
+mesh_y_ints                40
+mesh_z_ints                40
+anisn_library              bplus
+denovo_pn_order            4
+denovo_x_blocks            7
+denovo_y_blocks            4
+denovo_z_blocks            1

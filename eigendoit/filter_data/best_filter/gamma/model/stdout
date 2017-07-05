@@ -1,0 +1,30 @@
+ mcnp     ver=5    , ld=09282010  07/05/17 11:11:02                   
+          Thread Name & Version = MCNP5, 1.60
+          Copyright LANS/LANL/DOE - see output file
+                                  _                                      
+            ._ _    _  ._   ._   |_                                      
+            | | |  (_  | |  |_)   _)                                     
+                            |                                            
+  
+ sdef pos=-0.001 0 0 axs=1 0 0 ext=0 VEC=1 0 0 ERG=D3 DIR=FERG=D5 RAD=
+  warning.  ext is constant. in most problems it is a variable.                                                          
+        5010.70c -0.100000                                            
+  warning.  neutron table inconsistent with mode will be ignored.                                                        
+ m2   82207.70c   -1.0                                                
+  warning.  neutron table inconsistent with mode will be ignored.                                                        
+ m4    13027.70c -1.0                                                 
+  warning.  neutron table inconsistent with mode will be ignored.                                                        
+ 
+  warning.     1 energy bins of tally       21 are below energy cutoff.                                                  
+  warning.    38 energy bins of tally       31 are below energy cutoff.                                                  
+ comment. using random number generator  1, initial seed = 19073486328125      
+ imcn   is done
+
+  warning.  material        2 has been set to a conductor.                                                               
+  warning.  material        3 has been set to a conductor.                                                               
+  warning.  material        4 has been set to a conductor.                                                               
+
+                              ctm =        0.00   nrn =                 0
+ dump    1 on file runtpe   nps =           0   coll =                0
+ xact   is done
+

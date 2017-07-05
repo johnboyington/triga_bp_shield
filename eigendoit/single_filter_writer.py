@@ -7,6 +7,6 @@ import filter_functions as fil
 
 
 
-fil.createInputs('1213222222')
+fil.createInputs('2313331321')
 
 

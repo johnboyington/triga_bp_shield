@@ -1,0 +1,1068 @@
+--------------------------------------------------
+Exnihilo version : 5.4
+Python file      : -c
+Build Date       : 2015JUL08
+Exnihilo location: /home/john/opt/advantg/python/exnihilo
+--------------------------------------------------
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.485137e-02
+Iter   2, [ 1] :    2.295068e-02
+Iter   3, [ 1] :    7.950184e-03
+Iter   4, [ 1] :    2.445200e-03
+Iter   5, [ 1] :    6.318961e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000631896 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  46 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.701153e-02
+Iter   2, [ 1] :    2.446221e-02
+Iter   3, [ 1] :    8.652956e-03
+Iter   4, [ 1] :    2.690589e-03
+Iter   5, [ 1] :    7.057074e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000705707 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  45 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.810197e-02
+Iter   2, [ 1] :    2.534589e-02
+Iter   3, [ 1] :    9.249212e-03
+Iter   4, [ 1] :    2.965639e-03
+Iter   5, [ 1] :    7.914334e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000791433 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  44 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.847429e-02
+Iter   2, [ 1] :    2.564762e-02
+Iter   3, [ 1] :    9.443032e-03
+Iter   4, [ 1] :    3.052735e-03
+Iter   5, [ 1] :    8.187700e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.00081877 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  43 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.878318e-02
+Iter   2, [ 1] :    2.593923e-02
+Iter   3, [ 1] :    9.694660e-03
+Iter   4, [ 1] :    3.185982e-03
+Iter   5, [ 1] :    8.621692e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000862169 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  42 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.894624e-02
+Iter   2, [ 1] :    2.605312e-02
+Iter   3, [ 1] :    9.710059e-03
+Iter   4, [ 1] :    3.170073e-03
+Iter   5, [ 1] :    8.562819e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000856282 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  41 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.912558e-02
+Iter   2, [ 1] :    2.627642e-02
+Iter   3, [ 1] :    9.955248e-03
+Iter   4, [ 1] :    3.306760e-03
+Iter   5, [ 1] :    9.035051e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000903505 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  40 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.923069e-02
+Iter   2, [ 1] :    2.636438e-02
+Iter   3, [ 1] :    9.904337e-03
+Iter   4, [ 1] :    3.215136e-03
+Iter   5, [ 1] :    8.749694e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000874969 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  39 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.906566e-02
+Iter   2, [ 1] :    2.587484e-02
+Iter   3, [ 1] :    9.408608e-03
+Iter   4, [ 1] :    3.236522e-03
+Iter   5, [ 1] :    1.165861e-03
+Iter   6, [ 1] :    6.390976e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 6 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000639098 < 0.001
+
+>>> Belos Block GMRES converged after 6 iterations.
+>>> Adjoint group  38 finished in    6 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.920815e-02
+Iter   2, [ 1] :    2.633656e-02
+Iter   3, [ 1] :    1.008269e-02
+Iter   4, [ 1] :    3.485778e-03
+Iter   5, [ 1] :    9.710602e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.00097106 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  37 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.915418e-02
+Iter   2, [ 1] :    2.627448e-02
+Iter   3, [ 1] :    1.037306e-02
+Iter   4, [ 1] :    4.306112e-03
+Iter   5, [ 1] :    1.742631e-03
+Iter   6, [ 1] :    7.248367e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 6 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000724837 < 0.001
+
+>>> Belos Block GMRES converged after 6 iterations.
+>>> Adjoint group  36 finished in    6 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.886461e-02
+Iter   2, [ 1] :    2.617872e-02
+Iter   3, [ 1] :    1.037351e-02
+Iter   4, [ 1] :    4.199264e-03
+Iter   5, [ 1] :    1.468201e-03
+Iter   6, [ 1] :    4.643621e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 6 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000464362 < 0.001
+
+>>> Belos Block GMRES converged after 6 iterations.
+>>> Adjoint group  35 finished in    6 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.898388e-02
+Iter   2, [ 1] :    2.649708e-02
+Iter   3, [ 1] :    1.066255e-02
+Iter   4, [ 1] :    4.281196e-03
+Iter   5, [ 1] :    1.417369e-03
+Iter   6, [ 1] :    4.203929e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 6 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000420393 < 0.001
+
+>>> Belos Block GMRES converged after 6 iterations.
+>>> Adjoint group  34 finished in    6 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.856909e-02
+Iter   2, [ 1] :    2.640023e-02
+Iter   3, [ 1] :    1.054422e-02
+Iter   4, [ 1] :    4.074902e-03
+Iter   5, [ 1] :    1.265857e-03
+Iter   6, [ 1] :    3.629190e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 6 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000362919 < 0.001
+
+>>> Belos Block GMRES converged after 6 iterations.
+>>> Adjoint group  33 finished in    6 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.951031e-02
+Iter   2, [ 1] :    2.701849e-02
+Iter   3, [ 1] :    1.071846e-02
+Iter   4, [ 1] :    4.059121e-03
+Iter   5, [ 1] :    1.272836e-03
+Iter   6, [ 1] :    3.775999e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 6 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.0003776 < 0.001
+
+>>> Belos Block GMRES converged after 6 iterations.
+>>> Adjoint group  32 finished in    6 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.634093e-02
+Iter   2, [ 1] :    2.435173e-02
+Iter   3, [ 1] :    7.764411e-03
+Iter   4, [ 1] :    2.140010e-03
+Iter   5, [ 1] :    5.095931e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000509593 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  31 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.505001e-02
+Iter   2, [ 1] :    2.312884e-02
+Iter   3, [ 1] :    6.757367e-03
+Iter   4, [ 1] :    1.671715e-03
+Iter   5, [ 1] :    3.615017e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000361502 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  30 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.654189e-02
+Iter   2, [ 1] :    2.531568e-02
+Iter   3, [ 1] :    8.927630e-03
+Iter   4, [ 1] :    2.749550e-03
+Iter   5, [ 1] :    7.069039e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000706904 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  29 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.011495e-02
+Iter   2, [ 1] :    2.189644e-02
+Iter   3, [ 1] :    6.695594e-03
+Iter   4, [ 1] :    1.631188e-03
+Iter   5, [ 1] :    3.246375e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000324638 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  28 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    9.276556e-02
+Iter   2, [ 1] :    2.939788e-02
+Iter   3, [ 1] :    1.232882e-02
+Iter   4, [ 1] :    5.625121e-03
+Iter   5, [ 1] :    2.334324e-03
+Iter   6, [ 1] :    8.251930e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 6 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000825193 < 0.001
+
+>>> Belos Block GMRES converged after 6 iterations.
+>>> Adjoint group  27 finished in    6 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.822338e-02
+Iter   2, [ 1] :    2.739284e-02
+Iter   3, [ 1] :    1.061033e-02
+Iter   4, [ 1] :    3.865840e-03
+Iter   5, [ 1] :    1.185880e-03
+Iter   6, [ 1] :    3.244856e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 6 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000324486 < 0.001
+
+>>> Belos Block GMRES converged after 6 iterations.
+>>> Adjoint group  26 finished in    6 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.708207e-02
+Iter   2, [ 1] :    2.740853e-02
+Iter   3, [ 1] :    1.034283e-02
+Iter   4, [ 1] :    3.572867e-03
+Iter   5, [ 1] :    1.025403e-03
+Iter   6, [ 1] :    2.573350e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 6 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000257335 < 0.001
+
+>>> Belos Block GMRES converged after 6 iterations.
+>>> Adjoint group  25 finished in    6 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.331715e-02
+Iter   2, [ 1] :    2.580582e-02
+Iter   3, [ 1] :    8.616506e-03
+Iter   4, [ 1] :    2.344180e-03
+Iter   5, [ 1] :    5.252471e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000525247 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  24 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.148549e-02
+Iter   2, [ 1] :    2.439535e-02
+Iter   3, [ 1] :    7.041906e-03
+Iter   4, [ 1] :    1.550013e-03
+Iter   5, [ 1] :    2.857873e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 5 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000285787 < 0.001
+
+>>> Belos Block GMRES converged after 5 iterations.
+>>> Adjoint group  23 finished in    5 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    7.417547e-02
+Iter   2, [ 1] :    1.981327e-02
+Iter   3, [ 1] :    4.479071e-03
+Iter   4, [ 1] :    7.113236e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000711324 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group  22 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    7.770297e-02
+Iter   2, [ 1] :    2.190059e-02
+Iter   3, [ 1] :    5.230788e-03
+Iter   4, [ 1] :    8.974331e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000897433 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group  21 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    7.593204e-02
+Iter   2, [ 1] :    2.010922e-02
+Iter   3, [ 1] :    4.314922e-03
+Iter   4, [ 1] :    6.509802e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.00065098 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group  20 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    7.189401e-02
+Iter   2, [ 1] :    1.689384e-02
+Iter   3, [ 1] :    2.959006e-03
+Iter   4, [ 1] :    3.618798e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.00036188 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group  19 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    7.044381e-02
+Iter   2, [ 1] :    1.632595e-02
+Iter   3, [ 1] :    2.847001e-03
+Iter   4, [ 1] :    3.435027e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000343503 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group  18 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    7.159624e-02
+Iter   2, [ 1] :    1.696000e-02
+Iter   3, [ 1] :    3.151752e-03
+Iter   4, [ 1] :    4.076838e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000407684 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group  17 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    7.056754e-02
+Iter   2, [ 1] :    1.514287e-02
+Iter   3, [ 1] :    2.427595e-03
+Iter   4, [ 1] :    2.759482e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000275948 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group  16 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    7.155219e-02
+Iter   2, [ 1] :    1.475118e-02
+Iter   3, [ 1] :    2.287881e-03
+Iter   4, [ 1] :    2.539533e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000253953 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group  15 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    7.682691e-02
+Iter   2, [ 1] :    1.706075e-02
+Iter   3, [ 1] :    2.994036e-03
+Iter   4, [ 1] :    3.772122e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000377212 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group  14 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    7.845034e-02
+Iter   2, [ 1] :    1.610355e-02
+Iter   3, [ 1] :    2.690085e-03
+Iter   4, [ 1] :    3.435056e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000343506 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group  13 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    6.124312e-02
+Iter   2, [ 1] :    6.444840e-03
+Iter   3, [ 1] :    6.102762e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 3 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000610276 < 0.001
+
+>>> Belos Block GMRES converged after 3 iterations.
+>>> Adjoint group  12 finished in    3 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    7.829026e-02
+Iter   2, [ 1] :    1.511356e-02
+Iter   3, [ 1] :    2.452078e-03
+Iter   4, [ 1] :    3.166671e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000316667 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group  11 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.187473e-02
+Iter   2, [ 1] :    1.771572e-02
+Iter   3, [ 1] :    3.244934e-03
+Iter   4, [ 1] :    4.538732e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000453873 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group  10 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.556058e-02
+Iter   2, [ 1] :    1.886148e-02
+Iter   3, [ 1] :    3.621430e-03
+Iter   4, [ 1] :    5.561405e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.00055614 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group   9 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.793423e-02
+Iter   2, [ 1] :    1.914331e-02
+Iter   3, [ 1] :    3.708685e-03
+Iter   4, [ 1] :    5.967732e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000596773 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group   8 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.885991e-02
+Iter   2, [ 1] :    1.787383e-02
+Iter   3, [ 1] :    3.190677e-03
+Iter   4, [ 1] :    4.953930e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000495393 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group   7 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    8.071966e-02
+Iter   2, [ 1] :    1.251939e-02
+Iter   3, [ 1] :    1.687138e-03
+Iter   4, [ 1] :    2.094204e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 4 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.00020942 < 0.001
+
+>>> Belos Block GMRES converged after 4 iterations.
+>>> Adjoint group   6 finished in    4 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    6.816283e-02
+Iter   2, [ 1] :    8.221556e-03
+Iter   3, [ 1] :    8.857399e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 3 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.00088574 < 0.001
+
+>>> Belos Block GMRES converged after 3 iterations.
+>>> Adjoint group   5 finished in    3 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    5.584343e-02
+Iter   2, [ 1] :    5.567203e-03
+Iter   3, [ 1] :    5.069304e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 3 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.00050693 < 0.001
+
+>>> Belos Block GMRES converged after 3 iterations.
+>>> Adjoint group   4 finished in    3 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    4.991684e-02
+Iter   2, [ 1] :    4.314920e-03
+Iter   3, [ 1] :    3.258715e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 3 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000325871 < 0.001
+
+>>> Belos Block GMRES converged after 3 iterations.
+>>> Adjoint group   3 finished in    3 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    4.959580e-02
+Iter   2, [ 1] :    4.153018e-03
+Iter   3, [ 1] :    2.965479e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 3 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000296548 < 0.001
+
+>>> Belos Block GMRES converged after 3 iterations.
+>>> Adjoint group   2 finished in    3 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    5.265963e-02
+Iter   2, [ 1] :    4.388039e-03
+Iter   3, [ 1] :    3.128418e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 3 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000312842 < 0.001
+
+>>> Belos Block GMRES converged after 3 iterations.
+>>> Adjoint group   1 finished in    3 Belos Block GMRES iterations.
+
+*******************************************************
+***** Belos Iterative Solver:  Block Gmres 
+***** Maximum Iterations: 100
+***** Block Size: 1
+***** Residual Test: 
+*****   Test 1 : Belos::StatusTestImpResNorm<>: (2-Norm Res Vec) / (2-Norm RHS ), tol = 0.001
+*******************************************************
+Iter   0, [ 1] :    1.000000e+00
+Iter   1, [ 1] :    5.646138e-02
+Iter   2, [ 1] :    4.753937e-03
+Iter   3, [ 1] :    3.386031e-04
+Passed.......OR Combination -> 
+  OK...........Number of Iterations = 3 < 100
+  Converged....(2-Norm Res Vec) / (2-Norm RHS )
+               residual [ 0 ] = 0.000338603 < 0.001
+
+>>> Belos Block GMRES converged after 3 iterations.
+>>> Adjoint group   0 finished in    3 Belos Block GMRES iterations.
+Final denovo database:
+############################################################
+
+Database for std_db has:
+13         integer entries
+1          double entries
+4          bool entries
+9          string entries
+0          vector<int> entries
+5          vector<double> entries
+2          nested database entries
+
+============================================================
+Entries in std_db                                   database
+============================================================
+integer entries
+------------------------------------------------------------
+Pn_order                           5                        
+aztec_kspace                       20                       
+aztec_output                       -4                       
+dimension                          3                        
+domains_silo                       1                        
+first_group                        0                        
+last_group                         46                       
+max_itr                            100                      
+num_blocks_i                       7                        
+num_blocks_j                       4                        
+num_groups                         67                       
+num_sets                           1                        
+num_z_blocks                       1                        
+
+double entries
+------------------------------------------------------------
+tolerance                          0.001                    
+
+bool entries
+------------------------------------------------------------
+downscatter                        1                        
+ignore_upscatter                   1                        
+partition_upscatter                1                        
+use_cuda                           0                        
+
+string entries
+------------------------------------------------------------
+boundary                           vacuum                   
+mg_preconditioner                  none                     
+mg_solver                          gauss_seidel             
+problem_type                       FIXED_SOURCE             
+solver_type                        belos                    
+transport_correction               diagonal                 
+verbosity                          high                     
+within_group_preconditioner        none                     
+within_group_solver                gmres                    
+
+vector<double> entries                (number of elements)
+------------------------------------------------------------
+neutron_bnd                        48                       
+photon_bnd                         21                       
+x_edges                            41                       
+y_edges                            41                       
+z_edges                            41                       
+
+============================================================
+Entries in quadrature_db                            database
+============================================================
+integer entries
+------------------------------------------------------------
+Pn_order                           5                        
+azimuthals_octant                  4                        
+polars_octant                      4                        
+
+double entries
+------------------------------------------------------------
+quad_norm                          12.5664                  
+
+bool entries
+------------------------------------------------------------
+adjoint                            1                        
+
+string entries
+------------------------------------------------------------
+polar_axis                         z                        
+quad_type                          qr                       
+
+============================================================
+Entries in upscatter_db                             database
+============================================================
+############################################################
+---- TIMING ----
+                                                        TASK    TIME (s)
+                                                     Solving:     24.696
+                                           Processing output:      0.387
+                                      Initializing materials:      0.070
+                                            Building sources:      0.017
+                                          _load_local_shapes:      0.000
+                                          do_first_collision:      0.000

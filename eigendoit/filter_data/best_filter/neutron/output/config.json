@@ -1,0 +1,107 @@
+{
+ "options": {
+  "driver": {
+   "method": "cadis", 
+   "mglib": "anisn", 
+   "model": "mcnp", 
+   "outputs": [
+    "mcnp"
+   ], 
+   "solver": "denovo"
+  }, 
+  "mesh": {
+   "mesh_refinement": "mcnp", 
+   "mesh_x": [
+    -5.0, 
+    15.0
+   ], 
+   "mesh_x_ints": [
+    40
+   ], 
+   "mesh_y": [
+    -10.0, 
+    10.0
+   ], 
+   "mesh_y_ints": [
+    40
+   ], 
+   "mesh_z": [
+    -10.0, 
+    10.0
+   ], 
+   "mesh_z_ints": [
+    40
+   ]
+  }, 
+  "method": {}, 
+  "mglib": {
+   "anisn_library": "bplus", 
+   "anisn_upscatter": false
+  }, 
+  "model": {
+   "mcnp_force_point_source": false, 
+   "mcnp_input": "best_filter.i", 
+   "mcnp_lost_rays": 10, 
+   "mcnp_material_names": {}, 
+   "mcnp_max_point_sources": 20, 
+   "mcnp_max_source_samples": 100000000, 
+   "mcnp_min_rays_per_face": 10, 
+   "mcnp_min_source_samples": 1000000, 
+   "mcnp_mix_tolerance": 0.01, 
+   "mcnp_num_rays": 1, 
+   "mcnp_ray_directions": "xyz", 
+   "mcnp_tallies": [
+    21
+   ], 
+   "mcnp_target_source_density": 100, 
+   "mcnp_unfolding_safe": false
+  }, 
+  "output_mcnp": {
+   "mcnp_create_input": true, 
+   "mcnp_max_sb_samples": 100000000, 
+   "mcnp_min_sb_samples": 1000000, 
+   "mcnp_mxspln": 100, 
+   "mcnp_num_wgt_samples": 10000000, 
+   "mcnp_sb_type": "space_energy", 
+   "mcnp_target_sb_density": 10000, 
+   "mcnp_user_sb_sampling": false, 
+   "mcnp_ww_collapse_factor": 1.0, 
+   "mcnp_ww_ratio": 5.0
+  }, 
+  "solver": {
+   "denovo_discretization": "sc", 
+   "denovo_energy_sets": 1, 
+   "denovo_first_group": null, 
+   "denovo_hdf5_angles": false, 
+   "denovo_krylov_space": 20, 
+   "denovo_last_group": null, 
+   "denovo_max_iterations": 100, 
+   "denovo_mc_first_collision": false, 
+   "denovo_partition_upscatter": true, 
+   "denovo_pn_order": 5, 
+   "denovo_preconditioner": "none", 
+   "denovo_quad_num_azi": 4, 
+   "denovo_quad_num_polar": 4, 
+   "denovo_quad_polar_axis": "z", 
+   "denovo_quadrature": "qr", 
+   "denovo_silo_mixed": false, 
+   "denovo_silo_moments": false, 
+   "denovo_solver": "gmres", 
+   "denovo_tolerance": 0.001, 
+   "denovo_transport_correction": "diagonal", 
+   "denovo_verbose": true, 
+   "denovo_x_blocks": 7, 
+   "denovo_y_blocks": 4, 
+   "denovo_z_blocks": 1
+  }
+ }, 
+ "system": [
+  "Linux", 
+  "corps-g-5", 
+  "4.4.0-81-generic", 
+  "#104-Ubuntu SMP Wed Jun 14 08:17:06 UTC 2017", 
+  "x86_64", 
+  "x86_64"
+ ], 
+ "version": "3.0.3 (r1792: #6603345e on 2015NOV29)"
+}
